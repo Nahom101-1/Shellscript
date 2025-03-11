@@ -1,0 +1,26 @@
+Host db1
+    HostName 192.168.133.70
+    User ubuntu
+
+Host www1
+    HostName 192.168.132.203
+    User ubuntu
+
+Host www2
+    HostName 192.168.128.160
+    User ubuntu
+
+Host balancer
+    HostName 10.212.168.98
+    User ubuntu
+
+Host memcache
+    HostName 192.168.128.149
+    User ubuntu
+
+Host docker-vm
+    HostName 192.168.128.101
+    User ubuntu
+Host backup
+     HostName 192.168.133.34
+     User ubuntu
